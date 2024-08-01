@@ -1,2 +1,4 @@
 flowlauncher
 python-dotenv
+click
+babel
