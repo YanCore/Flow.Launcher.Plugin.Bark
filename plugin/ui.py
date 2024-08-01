@@ -39,7 +39,7 @@ class Main(FlowLauncher):
             title="Hello World, this is where title goes. {}".format(('Your query is: ' + query , query)[query == '']),
             subtitle="This is where your subtitle goes, press enter to open Flow's url",
             method="open_url",
-            values=["https://github.com/Flow-Launcher/Flow.Launcher"],
+            value=["https://github.com/Flow-Launcher/Flow.Launcher"],
         )
         
         return self.messages_queue
